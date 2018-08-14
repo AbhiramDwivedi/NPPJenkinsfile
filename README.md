@@ -1,7 +1,5 @@
 # Notepad ++ Jenkinsfile Language
 
-[![N|Solid](https://wac-cdn.atlassian.com/dam/jcr:b601a46c-ece6-4cda-94ae-d95b1d94cbfd/Crucible@2x-blue.png?cdnVersion=ji)](https://wac-cdn.atlassian.com/dam/jcr:b601a46c-ece6-4cda-94ae-d95b1d94cbfd/Crucible@2x-blue.png?cdnVersion=ji)
-
 # Introduction
 
 This repository is a home for Notepad++ language for Jenkins Pipeline As Code [Jenkins Pipeline As Code](https://jenkins.io/solutions/pipeline/).
