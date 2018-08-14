@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Jenkinsfile" ext="groovy" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="yes" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">03/* 04*/ 00// 01 02</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">bzt currentBuild docker env manager params perfReport pipeline scm</Keywords>
+            <Keywords name="Keywords2">VersionNumber archive bat build catchError checkout checkpoint copyRemoteArtifacts deleteDir dir dockerFingerprintFrom dockerFingerprintRun echo emailext emailextrecipients envVarsForTool error fileExists findFiles getContext git input isUnix library libraryResource load mail milestone node parallel properties publishHTML pwd readFile readJSON readManifest readMavenPom readProperties readTrusted readYaml resolveScm retry script sh sleep sshagent stage stash step svn task throttle timeout tool touch triggerRemoteJob unarchive unstash unzip validateDeclarativePipeline waitForQualityGate waitUntil withContext withCredentials withDockerContainer withDockerRegistry withDockerServer withEnv wrap writeFile writeJSON writeMavenPom writeYaml ws zip stages steps</Keywords>
+            <Keywords name="Keywords3">all allOf ant antFromApache antOutcome antTarget any anyOf apiToken architecture archiveArtifacts artifactManager batchFile booleanParam branch buildButton buildDiscarder caseInsensitive caseSensitive checkstyle choice choiceParam cleanWs clock cloud command configFile configFileProvider cron crumb defaultView demand disableConcurrentBuilds docker dockerfile downloadSettings downstream dry dumb envVars environment expression file fileParam filePath findbugs fingerprint frameOptions freeStyle freeStyleJob git github githubPush gradle hyperlink hyperlinkToModels installSource jdk jdkInstaller jgit jgitapache jnlp jobName junit label lastDuration lastFailure lastGrantedAuthorities lastStable lastSuccess legacy legacySCM list local location logRotator loggedInUsersCanDoAnything masterBuild maven maven3Mojos mavenErrors mavenMojos mavenWarnings modernSCM myView node nodeProperties nonStoredPasswordParam none not overrideIndexTriggers paneStatus parameters password pattern performanceReport performanceTest pipeline-model pipelineTriggers plainText plugin pmd pollSCM projectNamingStrategy proxy queueItemAuthenticator quietPeriod remotingCLI run runParam schedule scmRetryCount search security shell skipDefaultCheckout skipStagesAfterUnstable slave stackTrace standard status string stringParam swapSpace text textParam tmpSpace toolLocation unsecured upstream usernameColonPassword usernamePassword viewsTabBar weather withSonarQubeEnv zfs zip agent triggers options tools svn</Keywords>
+            <Keywords name="Keywords4">post always success failure unstable changed</Keywords>
+            <Keywords name="Keywords5">void</Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03&apos; 04 05&apos;</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="006699" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
