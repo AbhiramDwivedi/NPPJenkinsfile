@@ -4,6 +4,10 @@
 
 This repository is a home for Notepad++ language for Jenkins Pipeline As Code [Jenkins Pipeline As Code](https://jenkins.io/solutions/pipeline/).
 
+Download the Jenkinsfile.xml and import it to Notepad++ to start using.
+
+Given that Jenkinsfile will often have no extension, for a given Jenkinsfile, you may have to manually apply this language to an opened Jenkinsfile in NPP.
+
 # Sample Screenshot
 
 Once loaded in Notepad++, this would format code as :
